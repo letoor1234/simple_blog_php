@@ -279,3 +279,21 @@ body main form #dest-l, body main form #dest {
   display: inline;
   margin: 4% 0;
 }
+
+body section#content {
+  padding-top: 10vh;
+  width: 80%;
+  margin: auto;
+}
+
+body section#content #titulo, body section#content p {
+  margin-bottom: 3vw;
+}
+
+body section#content #resumen {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3vw;
+  padding: 1em;
+  background-color: #d9d9d9;
+}

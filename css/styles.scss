@@ -15,7 +15,7 @@ $b-orange: #b86123;
 body{
     width: calc(100vw- ( 100vw - 100%));
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: calc(4vw + 1%);  
+    font-size: calc(4vw + 1%);
     .menu-btn{
         display: inline-block;
         width: 100%;
@@ -24,7 +24,7 @@ body{
         padding: 8px;
         background-color: $w-red;
         color:white;
-        text-decoration: none; 
+        text-decoration: none;
         text-align: center;
         font-size: 120%;
         &:hover{
@@ -51,7 +51,7 @@ body{
             left: 0;
         }
     }
-    
+
     nav{
         position: absolute;
         left: -60%;
@@ -106,7 +106,7 @@ body{
                     }
                 }
             }
-        }  
+        }
     }
     ol{
         position: absolute;
@@ -176,7 +176,7 @@ body{
             text-align: right;
         }
     }
-    
+
     main{
         width: 80%;
         padding-top: 10vh;
@@ -250,5 +250,20 @@ body{
                 margin: 4% 0;
             }
         }
+    }
+    section#content{
+      padding-top: 10vh;
+      width: 80%;
+      margin: auto;
+      #titulo, p{
+        margin-bottom: 3vw;
+      }
+      #resumen{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 3vw;
+        padding: 1em;
+        background-color: lighten(grey, 35%);
+      }
     }
 }
